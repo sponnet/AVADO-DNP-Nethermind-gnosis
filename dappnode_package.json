@@ -25,7 +25,6 @@
   "autoupdate": true,
   "upstream": "1.12.4",
   "title": "Gnosis Chain node (Nethermind)",
-  "chain": "gnosis",
   "links": {
     "RPC endpoint": "http://nethermind-gnosis.my.ava.do:8545",
     "Github": "https://github.com/heeckhau/AVADO-DNP-Nethermind-gnosis"
