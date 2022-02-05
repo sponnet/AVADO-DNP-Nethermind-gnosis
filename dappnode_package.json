@@ -15,7 +15,7 @@
     "restart": "always"
   },
   "name": "nethermind-gnosis.avado.dnp.dappnode.eth",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "shortDescription": "Gnosis node - based on Nethermind",
   "description": "This package syncs a Gnosis node on your AVADO",
   "type": "service",
@@ -27,6 +27,7 @@
   "title": "Gnosis Chain node (Nethermind)",
   "links": {
     "RPC endpoint": "http://nethermind-gnosis.my.ava.do:8545",
-    "Github": "https://github.com/heeckhau/AVADO-DNP-Nethermind-gnosis"
+    "Github": "https://github.com/heeckhau/AVADO-DNP-Nethermind-gnosis",
+    "OnboardingWizard": "http://nethermind-gnosis.my.ava.do:8545/healthchecks-ui"
   }
 }

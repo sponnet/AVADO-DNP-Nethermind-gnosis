@@ -3,7 +3,7 @@ FROM nethermind/nethermind:${VERSION}
 
 # https://hub.docker.com/r/nethermind/nethermind
 
-ENTRYPOINT [ "sh", "-c" , "exec ./Nethermind.Runner --config xdai --Network.DiscoveryPort=30305 --Network.P2PPort=30305 --JsonRpc.Enabled=true --JsonRpc.Host=0.0.0.0 --Init.WebSocketsEnabled=true $EXTRA_OPTS" ]
+ENTRYPOINT [ "sh", "-c" , "exec ./Nethermind.Runner --config xdai --Network.DiscoveryPort=30305 --Network.P2PPort=30305 --JsonRpc.Enabled=true --JsonRpc.Host=0.0.0.0 --Init.WebSocketsEnabled=true --HealthChecks.Enabled=true --HealthChecks.UIEnabled=true $EXTRA_OPTS" ]
 
 # https://docs.nethermind.io/nethermind/ethereum-client/configuration
 
